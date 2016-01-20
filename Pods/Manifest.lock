@@ -1,0 +1,19 @@
+PODS:
+  - OBD2Kit (0.0.1)
+
+DEPENDENCIES:
+  - OBD2Kit (from `https://github.com/amaechler/OBD2Kit.git`)
+
+EXTERNAL SOURCES:
+  OBD2Kit:
+    :git: https://github.com/amaechler/OBD2Kit.git
+
+CHECKOUT OPTIONS:
+  OBD2Kit:
+    :commit: 36a9f841d222be14733b9116423016efb9d80561
+    :git: https://github.com/amaechler/OBD2Kit.git
+
+SPEC CHECKSUMS:
+  OBD2Kit: 00940c7548dceca3615f00f031ef5d856b77b7c7
+
+COCOAPODS: 0.38.2

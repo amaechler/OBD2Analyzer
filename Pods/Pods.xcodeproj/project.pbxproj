@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04359770DB0DE40CF168CDDB641C535E /* FLECUSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = C889652F6CFF91D15EED527A5E38BA76 /* FLECUSensor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0BC2B741158F25BD3CA07AB15DAD4FCE /* ELM327Command.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6055600AFC5EBED6540723BCAB4856 /* ELM327Command.h */; };
+		14BFAF5F9962F5034319B0CFFDF20AFA /* FLScanTool_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3DC843E47EA6E518C642F08297DB6C /* FLScanTool_Private.h */; };
+		17373C61601CDDE23A998E444ECB6D30 /* FLWifiScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7626A532B0B484F4A5BBED9F977770 /* FLWifiScanTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		17C891DAA4FE893BEF4B931EE49068E1 /* FLScanToolCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACE1D343144201B3BCED223B2190D1B /* FLScanToolCommand.h */; };
+		2B3D487FA93FF75A8A715F3ED9B0857B /* FLLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = C66D4173CAB0D123D4FD2E824EECC17E /* FLLogging.h */; };
+		2F9D0B5FA02D68BD55213C8FB88F73B3 /* ELM327ResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AAC014D972857F9EAEB33B598B0E26 /* ELM327ResponseParser.h */; };
+		4FFF1306356FE36CD1B75139B8B8B641 /* NSStreamAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5695CFD665C4CC72077EC5686E08423 /* NSStreamAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50B88C8BE3DCF53158F00167C0B1C4EF /* FLScanToolCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C736C9F8B36E10D13912F9A038B1D7 /* FLScanToolCommand.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55006D89B4043F0F8031400654E0D20B /* FLScanToolResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 079078CC8E56F08C6995BF860A2C858E /* FLScanToolResponseParser.h */; };
+		597567E9D416445D6DC537B40B38CB2F /* OBD2Sensors.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1266698EEA4F2582EAA57F6B19C4E4 /* OBD2Sensors.h */; };
+		78B659527C2A02D0A0F18FCEBA294DDC /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7441270FA6DC8458597D48DCFBCD3BAD /* Pods-dummy.m */; };
+		79EE66B22490F87EB2CF2B78A8A4AD26 /* FLScanToolResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB53BBC288D1AEB62299F8D849B77DC /* FLScanToolResponse.h */; };
+		7E974A8CE88E38A562433653A7001310 /* FLWifiScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2EAD7779E383E0B3297C30DD2344A7 /* FLWifiScanTool.h */; };
+		89588487603334B90FA855CC97F1EED6 /* FLScanToolResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2F75D521C4BE97BFD5521289BFE4B /* FLScanToolResponseParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E2DA44552A7072A2287608FD83FE7ED /* ELM327.h in Headers */ = {isa = PBXBuildFile; fileRef = 9610458C63C2774BC7039147E5C317E3 /* ELM327.h */; };
+		8F3B4B6F4FC2BE70F153BF4555904CE2 /* FLScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5A27488E6270E066ADAC7C662733E7 /* FLScanTool.h */; };
+		91C9EA93A539AADAD9695029A078C07F /* FLScanToolResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F360E7A1993034A3C7D03EF045B6A32E /* FLScanToolResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9A098502FE849C745725D4EECC885165 /* FLECUSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B58F9AA2D659E86012B072DA7922FC0 /* FLECUSensor.h */; };
+		9C1F646EFD07A3761E04DE78EE5A7977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DEC75E8444EBCD025F5E9234173D37 /* Foundation.framework */; };
+		B254594936C6B04E8D26CB5B26365298 /* FLScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4060EE9EA762E93FB1163F11D832D4 /* FLScanTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BAA1323E4AB291B1473D81A3C9B89D79 /* OBD2Kit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 977A56FE80DFCA47DDD75A82907B7332 /* OBD2Kit-dummy.m */; };
+		D69B838BF5A6B08F31D53D680FB56DDD /* ELM327Command.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C45502464BE9F8A93A8E2140FAED8C /* ELM327Command.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6B7704E54E59FABB30432F0517A6A4D /* NSStreamAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 850658BBD2A6471E486FD4914CF368E8 /* NSStreamAdditions.h */; };
+		EC909681A3EB12DF47E8886848E33D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DEC75E8444EBCD025F5E9234173D37 /* Foundation.framework */; };
+		F0BCDF4842FB39B4D294FE6AA2FB96CD /* ELM327.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDF5126159CF24F1B6A86FFAEBF510 /* ELM327.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F86433BC15D24EA1D552D95E5DB0EDE9 /* ELM327ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E07AEBB259F53A4EB2BC19932D6D0E /* ELM327ResponseParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32E2C00B90769916CAAB485DDFB2CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1723CD22C78687DF0C90AD2023EA24;
+			remoteInfo = OBD2Kit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E07AEBB259F53A4EB2BC19932D6D0E /* ELM327ResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELM327ResponseParser.m; path = "Classes/WiFi scan tool/elm327/ELM327ResponseParser.m"; sourceTree = "<group>"; };
+		079078CC8E56F08C6995BF860A2C858E /* FLScanToolResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLScanToolResponseParser.h; path = "Classes/Scan tool/FLScanToolResponseParser.h"; sourceTree = "<group>"; };
+		0F5A27488E6270E066ADAC7C662733E7 /* FLScanTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLScanTool.h; path = "Classes/Scan tool/FLScanTool.h"; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B3DC843E47EA6E518C642F08297DB6C /* FLScanTool_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLScanTool_Private.h; path = "Classes/Scan tool/FLScanTool_Private.h"; sourceTree = "<group>"; };
+		3ACE1D343144201B3BCED223B2190D1B /* FLScanToolCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLScanToolCommand.h; path = "Classes/Scan tool/FLScanToolCommand.h"; sourceTree = "<group>"; };
+		4EB392CAFF8907E5B2CA6FA322C183B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5F4060EE9EA762E93FB1163F11D832D4 /* FLScanTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLScanTool.m; path = "Classes/Scan tool/FLScanTool.m"; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		65F36B06F1529C0660FB6AD9EBA1B828 /* OBD2Kit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OBD2Kit.xcconfig; sourceTree = "<group>"; };
+		6B58F9AA2D659E86012B072DA7922FC0 /* FLECUSensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLECUSensor.h; path = Classes/Sensor/FLECUSensor.h; sourceTree = "<group>"; };
+		7441270FA6DC8458597D48DCFBCD3BAD /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		78BDF5126159CF24F1B6A86FFAEBF510 /* ELM327.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELM327.m; path = "Classes/WiFi scan tool/elm327/ELM327.m"; sourceTree = "<group>"; };
+		7D6055600AFC5EBED6540723BCAB4856 /* ELM327Command.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELM327Command.h; path = "Classes/WiFi scan tool/elm327/ELM327Command.h"; sourceTree = "<group>"; };
+		82C736C9F8B36E10D13912F9A038B1D7 /* FLScanToolCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLScanToolCommand.m; path = "Classes/Scan tool/FLScanToolCommand.m"; sourceTree = "<group>"; };
+		850658BBD2A6471E486FD4914CF368E8 /* NSStreamAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSStreamAdditions.h; path = Classes/Utils/NSStreamAdditions.h; sourceTree = "<group>"; };
+		8B2EAD7779E383E0B3297C30DD2344A7 /* FLWifiScanTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLWifiScanTool.h; path = "Classes/WiFi scan tool/FLWifiScanTool.h"; sourceTree = "<group>"; };
+		9610458C63C2774BC7039147E5C317E3 /* ELM327.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELM327.h; path = "Classes/WiFi scan tool/elm327/ELM327.h"; sourceTree = "<group>"; };
+		977A56FE80DFCA47DDD75A82907B7332 /* OBD2Kit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OBD2Kit-dummy.m"; sourceTree = "<group>"; };
+		9963B0006D189739E1DF76A15B031681 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBB333ADBEA82785F64DDE5FC0702E9 /* libOBD2Kit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOBD2Kit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D306762950196F028CBEF96F639BDE8 /* OBD2Kit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OBD2Kit-prefix.pch"; sourceTree = "<group>"; };
+		9DB53BBC288D1AEB62299F8D849B77DC /* FLScanToolResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLScanToolResponse.h; path = "Classes/Scan tool/FLScanToolResponse.h"; sourceTree = "<group>"; };
+		A52DEC872901990109A5B13A5084494F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		B1AAC014D972857F9EAEB33B598B0E26 /* ELM327ResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELM327ResponseParser.h; path = "Classes/WiFi scan tool/elm327/ELM327ResponseParser.h"; sourceTree = "<group>"; };
+		B3C2F75D521C4BE97BFD5521289BFE4B /* FLScanToolResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLScanToolResponseParser.m; path = "Classes/Scan tool/FLScanToolResponseParser.m"; sourceTree = "<group>"; };
+		B4DEC75E8444EBCD025F5E9234173D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C66D4173CAB0D123D4FD2E824EECC17E /* FLLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLLogging.h; path = Classes/Utils/FLLogging.h; sourceTree = "<group>"; };
+		C889652F6CFF91D15EED527A5E38BA76 /* FLECUSensor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLECUSensor.m; path = Classes/Sensor/FLECUSensor.m; sourceTree = "<group>"; };
+		CE1266698EEA4F2582EAA57F6B19C4E4 /* OBD2Sensors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OBD2Sensors.h; path = Classes/Sensor/OBD2Sensors.h; sourceTree = "<group>"; };
+		D4C45502464BE9F8A93A8E2140FAED8C /* ELM327Command.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELM327Command.m; path = "Classes/WiFi scan tool/elm327/ELM327Command.m"; sourceTree = "<group>"; };
+		D5695CFD665C4CC72077EC5686E08423 /* NSStreamAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSStreamAdditions.m; path = Classes/Utils/NSStreamAdditions.m; sourceTree = "<group>"; };
+		F360E7A1993034A3C7D03EF045B6A32E /* FLScanToolResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLScanToolResponse.m; path = "Classes/Scan tool/FLScanToolResponse.m"; sourceTree = "<group>"; };
+		FB41DA3D0E8E2A87F6B7F1843F4E3EFA /* OBD2Kit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OBD2Kit-Private.xcconfig"; sourceTree = "<group>"; };
+		FB7626A532B0B484F4A5BBED9F977770 /* FLWifiScanTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLWifiScanTool.m; path = "Classes/WiFi scan tool/FLWifiScanTool.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE5ECD8589CC9C07952C66D7E03AC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1F646EFD07A3761E04DE78EE5A7977 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDEF32B48A91557C91AEC8DCF92A211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC909681A3EB12DF47E8886848E33D4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1532A7DFD7C2466B83D55AB714169685 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA40EA95F056EDD6BEC16A008DFD729 /* OBD2Kit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45D935D6E653712A9C8655B776048B1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F36B06F1529C0660FB6AD9EBA1B828 /* OBD2Kit.xcconfig */,
+				FB41DA3D0E8E2A87F6B7F1843F4E3EFA /* OBD2Kit-Private.xcconfig */,
+				977A56FE80DFCA47DDD75A82907B7332 /* OBD2Kit-dummy.m */,
+				9D306762950196F028CBEF96F639BDE8 /* OBD2Kit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OBD2Kit";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4DEC75E8444EBCD025F5E9234173D37 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1532A7DFD7C2466B83D55AB714169685 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				7441270FA6DC8458597D48DCFBCD3BAD /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				4EB392CAFF8907E5B2CA6FA322C183B5 /* Pods.debug.xcconfig */,
+				A52DEC872901990109A5B13A5084494F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CBB333ADBEA82785F64DDE5FC0702E9 /* libOBD2Kit.a */,
+				9963B0006D189739E1DF76A15B031681 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA40EA95F056EDD6BEC16A008DFD729 /* OBD2Kit */ = {
+			isa = PBXGroup;
+			children = (
+				9610458C63C2774BC7039147E5C317E3 /* ELM327.h */,
+				78BDF5126159CF24F1B6A86FFAEBF510 /* ELM327.m */,
+				7D6055600AFC5EBED6540723BCAB4856 /* ELM327Command.h */,
+				D4C45502464BE9F8A93A8E2140FAED8C /* ELM327Command.m */,
+				B1AAC014D972857F9EAEB33B598B0E26 /* ELM327ResponseParser.h */,
+				04E07AEBB259F53A4EB2BC19932D6D0E /* ELM327ResponseParser.m */,
+				6B58F9AA2D659E86012B072DA7922FC0 /* FLECUSensor.h */,
+				C889652F6CFF91D15EED527A5E38BA76 /* FLECUSensor.m */,
+				C66D4173CAB0D123D4FD2E824EECC17E /* FLLogging.h */,
+				0F5A27488E6270E066ADAC7C662733E7 /* FLScanTool.h */,
+				5F4060EE9EA762E93FB1163F11D832D4 /* FLScanTool.m */,
+				3ACE1D343144201B3BCED223B2190D1B /* FLScanToolCommand.h */,
+				82C736C9F8B36E10D13912F9A038B1D7 /* FLScanToolCommand.m */,
+				9DB53BBC288D1AEB62299F8D849B77DC /* FLScanToolResponse.h */,
+				F360E7A1993034A3C7D03EF045B6A32E /* FLScanToolResponse.m */,
+				079078CC8E56F08C6995BF860A2C858E /* FLScanToolResponseParser.h */,
+				B3C2F75D521C4BE97BFD5521289BFE4B /* FLScanToolResponseParser.m */,
+				2B3DC843E47EA6E518C642F08297DB6C /* FLScanTool_Private.h */,
+				8B2EAD7779E383E0B3297C30DD2344A7 /* FLWifiScanTool.h */,
+				FB7626A532B0B484F4A5BBED9F977770 /* FLWifiScanTool.m */,
+				850658BBD2A6471E486FD4914CF368E8 /* NSStreamAdditions.h */,
+				D5695CFD665C4CC72077EC5686E08423 /* NSStreamAdditions.m */,
+				CE1266698EEA4F2582EAA57F6B19C4E4 /* OBD2Sensors.h */,
+				45D935D6E653712A9C8655B776048B1F /* Support Files */,
+			);
+			path = OBD2Kit;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E50095BD980883D1F50B63A18659F9A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DA44552A7072A2287608FD83FE7ED /* ELM327.h in Headers */,
+				0BC2B741158F25BD3CA07AB15DAD4FCE /* ELM327Command.h in Headers */,
+				2F9D0B5FA02D68BD55213C8FB88F73B3 /* ELM327ResponseParser.h in Headers */,
+				9A098502FE849C745725D4EECC885165 /* FLECUSensor.h in Headers */,
+				2B3D487FA93FF75A8A715F3ED9B0857B /* FLLogging.h in Headers */,
+				8F3B4B6F4FC2BE70F153BF4555904CE2 /* FLScanTool.h in Headers */,
+				17C891DAA4FE893BEF4B931EE49068E1 /* FLScanToolCommand.h in Headers */,
+				79EE66B22490F87EB2CF2B78A8A4AD26 /* FLScanToolResponse.h in Headers */,
+				55006D89B4043F0F8031400654E0D20B /* FLScanToolResponseParser.h in Headers */,
+				14BFAF5F9962F5034319B0CFFDF20AFA /* FLScanTool_Private.h in Headers */,
+				7E974A8CE88E38A562433653A7001310 /* FLWifiScanTool.h in Headers */,
+				E6B7704E54E59FABB30432F0517A6A4D /* NSStreamAdditions.h in Headers */,
+				597567E9D416445D6DC537B40B38CB2F /* OBD2Sensors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25F0D0CC953832295F796793FA8BEF97 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12CF63DD37B57C461249B00B6B4ECA1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				992F8FA6E20380BB6038DFA4C3FFCBEB /* Sources */,
+				6DDEF32B48A91557C91AEC8DCF92A211 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4234ED8DFE9383ADF261CBA61961DCB4 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 9963B0006D189739E1DF76A15B031681 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A1723CD22C78687DF0C90AD2023EA24 /* OBD2Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329C510376FAAF04A83145655C6E6C2C /* Build configuration list for PBXNativeTarget "OBD2Kit" */;
+			buildPhases = (
+				788B70FF3AF027221C6E7AC28BB36677 /* Sources */,
+				6BE5ECD8589CC9C07952C66D7E03AC97 /* Frameworks */,
+				E50095BD980883D1F50B63A18659F9A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OBD2Kit;
+			productName = OBD2Kit;
+			productReference = 9CBB333ADBEA82785F64DDE5FC0702E9 /* libOBD2Kit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1723CD22C78687DF0C90AD2023EA24 /* OBD2Kit */,
+				25F0D0CC953832295F796793FA8BEF97 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788B70FF3AF027221C6E7AC28BB36677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BCDF4842FB39B4D294FE6AA2FB96CD /* ELM327.m in Sources */,
+				D69B838BF5A6B08F31D53D680FB56DDD /* ELM327Command.m in Sources */,
+				F86433BC15D24EA1D552D95E5DB0EDE9 /* ELM327ResponseParser.m in Sources */,
+				04359770DB0DE40CF168CDDB641C535E /* FLECUSensor.m in Sources */,
+				B254594936C6B04E8D26CB5B26365298 /* FLScanTool.m in Sources */,
+				50B88C8BE3DCF53158F00167C0B1C4EF /* FLScanToolCommand.m in Sources */,
+				91C9EA93A539AADAD9695029A078C07F /* FLScanToolResponse.m in Sources */,
+				89588487603334B90FA855CC97F1EED6 /* FLScanToolResponseParser.m in Sources */,
+				17373C61601CDDE23A998E444ECB6D30 /* FLWifiScanTool.m in Sources */,
+				4FFF1306356FE36CD1B75139B8B8B641 /* NSStreamAdditions.m in Sources */,
+				BAA1323E4AB291B1473D81A3C9B89D79 /* OBD2Kit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992F8FA6E20380BB6038DFA4C3FFCBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B659527C2A02D0A0F18FCEBA294DDC /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4234ED8DFE9383ADF261CBA61961DCB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OBD2Kit;
+			target = 3A1723CD22C78687DF0C90AD2023EA24 /* OBD2Kit */;
+			targetProxy = F32E2C00B90769916CAAB485DDFB2CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5426DC50D40C3DE1211154599044CB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52DEC872901990109A5B13A5084494F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		71EB82C3B856CD03E2EF6526EC85AF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB41DA3D0E8E2A87F6B7F1843F4E3EFA /* OBD2Kit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OBD2Kit/OBD2Kit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5D385B6AAD075062B3FDF6E051AF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB392CAFF8907E5B2CA6FA322C183B5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7A336D4C203322348A92CC9FF1867B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB41DA3D0E8E2A87F6B7F1843F4E3EFA /* OBD2Kit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OBD2Kit/OBD2Kit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329C510376FAAF04A83145655C6E6C2C /* Build configuration list for PBXNativeTarget "OBD2Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A336D4C203322348A92CC9FF1867B6 /* Debug */,
+				71EB82C3B856CD03E2EF6526EC85AF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12CF63DD37B57C461249B00B6B4ECA1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D385B6AAD075062B3FDF6E051AF3B /* Debug */,
+				5426DC50D40C3DE1211154599044CB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

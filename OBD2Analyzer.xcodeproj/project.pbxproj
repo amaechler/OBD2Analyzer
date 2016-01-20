@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EAE66211C4F595900162703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE66201C4F595900162703 /* main.m */; };
+		5EAE66241C4F595900162703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE66231C4F595900162703 /* AppDelegate.m */; };
+		5EAE66271C4F595900162703 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE66261C4F595900162703 /* FirstViewController.m */; };
+		5EAE662A1C4F595900162703 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE66291C4F595900162703 /* SecondViewController.m */; };
+		5EAE662D1C4F595900162703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE662B1C4F595900162703 /* Main.storyboard */; };
+		5EAE662F1C4F595900162703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE662E1C4F595900162703 /* Assets.xcassets */; };
+		5EAE66321C4F595900162703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE66301C4F595900162703 /* LaunchScreen.storyboard */; };
+		5EAE663D1C4F595900162703 /* OBD2AnalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE663C1C4F595900162703 /* OBD2AnalyzerTests.m */; };
+		B73B934F3E00B7C1841DB8EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995BEBC341602BACD969C8C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EAE66391C4F595900162703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAE66141C4F595900162703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAE661B1C4F595900162703;
+			remoteInfo = "obd2-analyzer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EAE661C1C4F595900162703 /* OBD2Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBD2Analyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAE66201C4F595900162703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EAE66221C4F595900162703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EAE66231C4F595900162703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EAE66251C4F595900162703 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5EAE66261C4F595900162703 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5EAE66281C4F595900162703 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5EAE66291C4F595900162703 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5EAE662C1C4F595900162703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EAE662E1C4F595900162703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EAE66311C4F595900162703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EAE66331C4F595900162703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAE66381C4F595900162703 /* OBD2AnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBD2AnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAE663C1C4F595900162703 /* OBD2AnalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBD2AnalyzerTests.m; sourceTree = "<group>"; };
+		5EAE663E1C4F595900162703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836CDC18CD7DEA69DEC735BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9995BEBC341602BACD969C8C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5AEED03C4E0DDE35BDFA19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAE66191C4F595900162703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73B934F3E00B7C1841DB8EA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAE66351C4F595900162703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E5A7FEA63B7B04B976C461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9995BEBC341602BACD969C8C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EAE66131C4F595900162703 = {
+			isa = PBXGroup;
+			children = (
+				5EAE661E1C4F595900162703 /* OBD2Analyzer */,
+				5EAE663B1C4F595900162703 /* OBD2AnalyzerTests */,
+				5EAE661D1C4F595900162703 /* Products */,
+				CD02C1BA9A59E2612C52DB08 /* Pods */,
+				22E5A7FEA63B7B04B976C461 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EAE661D1C4F595900162703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE661C1C4F595900162703 /* OBD2Analyzer.app */,
+				5EAE66381C4F595900162703 /* OBD2AnalyzerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EAE661E1C4F595900162703 /* OBD2Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE66221C4F595900162703 /* AppDelegate.h */,
+				5EAE66231C4F595900162703 /* AppDelegate.m */,
+				5EAE66251C4F595900162703 /* FirstViewController.h */,
+				5EAE66261C4F595900162703 /* FirstViewController.m */,
+				5EAE66281C4F595900162703 /* SecondViewController.h */,
+				5EAE66291C4F595900162703 /* SecondViewController.m */,
+				5EAE662B1C4F595900162703 /* Main.storyboard */,
+				5EAE662E1C4F595900162703 /* Assets.xcassets */,
+				5EAE66301C4F595900162703 /* LaunchScreen.storyboard */,
+				5EAE66331C4F595900162703 /* Info.plist */,
+				5EAE661F1C4F595900162703 /* Supporting Files */,
+			);
+			path = OBD2Analyzer;
+			sourceTree = "<group>";
+		};
+		5EAE661F1C4F595900162703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE66201C4F595900162703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EAE663B1C4F595900162703 /* OBD2AnalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE663C1C4F595900162703 /* OBD2AnalyzerTests.m */,
+				5EAE663E1C4F595900162703 /* Info.plist */,
+			);
+			path = OBD2AnalyzerTests;
+			sourceTree = "<group>";
+		};
+		CD02C1BA9A59E2612C52DB08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AEED03C4E0DDE35BDFA19 /* Pods.debug.xcconfig */,
+				836CDC18CD7DEA69DEC735BF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAE661B1C4F595900162703 /* OBD2Analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAE66411C4F595900162703 /* Build configuration list for PBXNativeTarget "OBD2Analyzer" */;
+			buildPhases = (
+				190EC206177072272C69EDF9 /* Check Pods Manifest.lock */,
+				5EAE66181C4F595900162703 /* Sources */,
+				5EAE66191C4F595900162703 /* Frameworks */,
+				5EAE661A1C4F595900162703 /* Resources */,
+				EB2EF4C9E056231FF6D8EF6F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OBD2Analyzer;
+			productName = "obd2-analyzer";
+			productReference = 5EAE661C1C4F595900162703 /* OBD2Analyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EAE66371C4F595900162703 /* OBD2AnalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAE66441C4F595900162703 /* Build configuration list for PBXNativeTarget "OBD2AnalyzerTests" */;
+			buildPhases = (
+				5EAE66341C4F595900162703 /* Sources */,
+				5EAE66351C4F595900162703 /* Frameworks */,
+				5EAE66361C4F595900162703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAE663A1C4F595900162703 /* PBXTargetDependency */,
+			);
+			name = OBD2AnalyzerTests;
+			productName = "obd2-analyzerTests";
+			productReference = 5EAE66381C4F595900162703 /* OBD2AnalyzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EAE66141C4F595900162703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = amaechler;
+				TargetAttributes = {
+					5EAE661B1C4F595900162703 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V4QB5BUQG4;
+					};
+					5EAE66371C4F595900162703 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V4QB5BUQG4;
+						TestTargetID = 5EAE661B1C4F595900162703;
+					};
+				};
+			};
+			buildConfigurationList = 5EAE66171C4F595900162703 /* Build configuration list for PBXProject "OBD2Analyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EAE66131C4F595900162703;
+			productRefGroup = 5EAE661D1C4F595900162703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAE661B1C4F595900162703 /* OBD2Analyzer */,
+				5EAE66371C4F595900162703 /* OBD2AnalyzerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EAE661A1C4F595900162703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE66321C4F595900162703 /* LaunchScreen.storyboard in Resources */,
+				5EAE662F1C4F595900162703 /* Assets.xcassets in Resources */,
+				5EAE662D1C4F595900162703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAE66361C4F595900162703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190EC206177072272C69EDF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2EF4C9E056231FF6D8EF6F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAE66181C4F595900162703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE662A1C4F595900162703 /* SecondViewController.m in Sources */,
+				5EAE66241C4F595900162703 /* AppDelegate.m in Sources */,
+				5EAE66271C4F595900162703 /* FirstViewController.m in Sources */,
+				5EAE66211C4F595900162703 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAE66341C4F595900162703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE663D1C4F595900162703 /* OBD2AnalyzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EAE663A1C4F595900162703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAE661B1C4F595900162703 /* OBD2Analyzer */;
+			targetProxy = 5EAE66391C4F595900162703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EAE662B1C4F595900162703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAE662C1C4F595900162703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EAE66301C4F595900162703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAE66311C4F595900162703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EAE663F1C4F595900162703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EAE66401C4F595900162703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAE66421C4F595900162703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5AEED03C4E0DDE35BDFA19 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/OBD2Analyzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaechler.obd2analyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5EAE66431C4F595900162703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836CDC18CD7DEA69DEC735BF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/OBD2Analyzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaechler.obd2analyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5EAE66451C4F595900162703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "obd2-analyzerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaechler.obd2-analyzerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obd2-analyzer.app/obd2-analyzer";
+			};
+			name = Debug;
+		};
+		5EAE66461C4F595900162703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "obd2-analyzerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaechler.obd2-analyzerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obd2-analyzer.app/obd2-analyzer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EAE66171C4F595900162703 /* Build configuration list for PBXProject "OBD2Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAE663F1C4F595900162703 /* Debug */,
+				5EAE66401C4F595900162703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAE66411C4F595900162703 /* Build configuration list for PBXNativeTarget "OBD2Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAE66421C4F595900162703 /* Debug */,
+				5EAE66431C4F595900162703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAE66441C4F595900162703 /* Build configuration list for PBXNativeTarget "OBD2AnalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAE66451C4F595900162703 /* Debug */,
+				5EAE66461C4F595900162703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EAE66141C4F595900162703 /* Project object */;
+}

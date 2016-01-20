@@ -1,0 +1,1 @@
+../../../OBD2Kit/Classes/Scan tool/FLScanToolCommand.h
